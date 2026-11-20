@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+data/*.fastresume
+data/config.json
+downloads/
+watch/processed/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+from __future__ import annotations
+import sys
+from pathlib import Path
+
+def get_app_dir() -> Path:
+    """Return writable application directory beside executable or project root."""
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parent.parent

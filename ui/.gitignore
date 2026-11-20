@@ -1,0 +1,26 @@
+# Виртуальное окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Артефакты PyInstaller и логи сборки
+build/
+dist/
+*.spec
+build_exe.log
+
+# Локальные данные, загрузки и watch-папка
+data/
+downloads/
+watch/
+*.fastresume
+*.torrent
+
+# IDE / система
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
