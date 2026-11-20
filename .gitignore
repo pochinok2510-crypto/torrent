@@ -11,3 +11,6 @@ downloads/
 watch/processed/
 .DS_Store
 Thumbs.db
+
+.idea/
+build_exe.log
